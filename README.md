@@ -69,6 +69,7 @@ MIR_compression/
 │
 ├── Daigram.drawio                # Architecture diagram
 │
+└── logs/                         # Training & evaluation logs
 ├── benchmark_plots/              # Visual performance analysis
 
 📦 Installation
