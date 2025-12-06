@@ -1,0 +1,33 @@
+# Core Dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+clip-by-openai>=1.0
+
+# FAISS for similarity search
+faiss-cpu>=1.7.4  # Use faiss-gpu for GPU support
+
+# Image/Video/Audio Processing
+pillow>=10.0.0
+opencv-python>=4.8.0
+imageio>=2.31.0
+librosa>=0.10.0
+soundfile>=0.12.0  # Required by librosa
+
+# GUI
+PyQt6>=6.5.0
+
+# Utilities
+numpy>=1.24.0
+tqdm>=4.65.0
+psutil>=5.9.0
+
+# Optional: For training and analysis
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tensorboard>=2.13.0
+
+# Database
+# (sqlite3 is included in Python standard library)
+
+# Note: For GPU support, replace faiss-cpu with faiss-gpu
+# and ensure CUDA is properly installed
