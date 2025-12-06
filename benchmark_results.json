@@ -1,0 +1,38 @@
+{
+  "none": {
+    "mode": "none",
+    "parameters": 151277313,
+    "model_size_mb": 577.0771522521973,
+    "avg_encoding_time_ms": 72.56883382797241,
+    "avg_search_time_ms": 48.16734790802002,
+    "memory_usage_mb": 1194.98828125,
+    "total_images": 1000
+  },
+  "distilled": {
+    "mode": "distilled",
+    "parameters": 20101953,
+    "model_size_mb": 76.70788955688477,
+    "avg_encoding_time_ms": 18.009085655212402,
+    "avg_search_time_ms": 5.0536394119262695,
+    "memory_usage_mb": 1111.21484375,
+    "total_images": 1000
+  },
+  "pruned": {
+    "mode": "pruned",
+    "parameters": 20101953,
+    "model_size_mb": 76.70788955688477,
+    "avg_encoding_time_ms": 16.976282596588135,
+    "avg_search_time_ms": 7.326602935791016,
+    "memory_usage_mb": 1113.08984375,
+    "total_images": 1000
+  },
+  "quantized": {
+    "mode": "quantized",
+    "parameters": 19838785,
+    "model_size_mb": 75.70398330688477,
+    "avg_encoding_time_ms": 16.78741693496704,
+    "avg_search_time_ms": 4.796695709228516,
+    "memory_usage_mb": 1113.9375,
+    "total_images": 1000
+  }
+}
