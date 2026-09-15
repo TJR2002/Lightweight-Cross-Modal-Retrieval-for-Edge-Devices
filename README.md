@@ -114,10 +114,6 @@ FAISS IVF indexing for million-scale datasets
 
 Real-time video frame embedding
 
-📜 License
-
-MIT License (recommended — I can generate it if you want)
-
 🙌 Authors
 
 Thejas Rao
